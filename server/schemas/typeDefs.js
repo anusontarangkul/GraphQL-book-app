@@ -35,7 +35,7 @@ const typeDefs = gql`
         title: String!
         bookId: String!
         image: String!
-        link: String!
+        link: String
     }
     type Query {
         me: User
